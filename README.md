@@ -33,4 +33,3 @@ pnpm build
 ## License
 
 This blog is [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0) licensed, see the [LICENSE](LICENSE) file for details.
-# bobo.me
