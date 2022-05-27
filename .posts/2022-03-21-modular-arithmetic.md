@@ -7,7 +7,6 @@ date: 2022-03-21
 headerImage: /img/in-post/2022-03-21/header.jpeg
 permalinkPattern: /post/:year/:month/:day/:slug/
 catalog: true
-hide: true
 tags:
   - Math
   - Cryptography
@@ -27,7 +26,6 @@ tags:
 有整数 $a, b \in \Z$，$a \not= 0$。如果存在整数 $k$ 使得 $ak = b$，那么我们称 $b$ 可以被 $a$ 整除，或 $a$ 是 $b$ 的约数（Divisor），记作 $a \mid b$。
 :::
 
-
 ### 余数
 
 :::info 余数（Remainder）
@@ -43,7 +41,6 @@ tags:
 
 在某些参考资料中，也可能会用 $a \text{ \% } b$ 来表示模除。
 :::
-
 
 ### 同余
 

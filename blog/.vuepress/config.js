@@ -4,8 +4,8 @@ const { gungnirTheme } = require("vuepress-theme-gungnir");
 const isProd = process.env.NODE_ENV === "production";
 
 module.exports = {
-  title: "Xiaohan Zou",
-  description: "Xiaohan Zou (Renovamen) is a dragon lost in human world.",
+  title: "Atlas",
+  description: "Tomorrow is another day.",
 
   head: [
     [
@@ -26,8 +26,8 @@ module.exports = {
         href: `/img/logo/favicon-32x32.png`,
       },
     ],
-    ["meta", { name: "application-name", content: "Xiaohan Zou" }],
-    ["meta", { name: "apple-mobile-web-app-title", content: "Xiaohan Zou" }],
+    ["meta", { name: "application-name", content: "zhang13pro" }],
+    ["meta", { name: "apple-mobile-web-app-title", content: "LEX" }],
     [
       "meta",
       { name: "apple-mobile-web-app-status-bar-style", content: "black" },
@@ -43,26 +43,26 @@ module.exports = {
   bundler: viteBundler(),
 
   theme: gungnirTheme({
-    repo: "Renovamen/blog.zxh.io",
+    repo: "zhang13pro/bobo.me",
     docsDir: "blog",
-    docsBranch: "master",
+    docsBranch: "main",
 
     hitokoto: "https://v1.hitokoto.cn?c=i", // enable hitokoto (一言) or not?
 
     // personal information
     personalInfo: {
-      name: "Renovamen",
+      name: "Dreamer",
       avatar: "/img/avatar.jpg",
-      description: "いつか、私がヒトじゃなくなっても",
-      sns: {
-        github: "Renovamen",
-        linkedin: "xiaohan-zou",
-        // facebook: "renovamen.zou",
-        twitter: "renovamen_zxh",
-        zhihu: "chao-neng-gui-su",
-        email: "renovamenzxh@gmail.com",
-        rss: "/rss.xml",
-      },
+      description: "sleeping ? money++ : coding && (writing || eating)",
+      // sns: {
+      // github: "Renovamen",
+      // linkedin: "xiaohan-zou",
+      // facebook: "renovamen.zou",
+      // twitter: "renovamen_zxh",
+      // zhihu: "chao-neng-gui-su",
+      // email: "renovamenzxh@gmail.com",
+      // rss: "/rss.xml",
+      // },
     },
 
     // header images on home page
@@ -91,15 +91,14 @@ module.exports = {
     // other pages
     pages: {
       tags: {
-        subtitle: "Black Sheep Wall",
+        subtitle: "人生代代无穷已，江月年年望相似",
         bgImage: {
           path: "/img/pages/tags.jpg",
           mask: "rgba(211, 136, 37, .5)",
         },
       },
       links: {
-        subtitle:
-          "When you are looking at the stars, please put the brightest star shining night sky as my soul.",
+        subtitle: "从童年起，我便独自一人，照顾着历代的星辰",
         bgImage: {
           path: "/img/pages/links.jpg",
           mask: "rgba(64, 118, 190, 0.5)",
@@ -107,6 +106,7 @@ module.exports = {
       },
     },
 
+    // TODO update
     themePlugins: {
       // only enable git plugin in production mode
       git: isProd,
@@ -131,34 +131,27 @@ module.exports = {
 
     navbar: [
       {
-        text: "Home",
+        text: "🛋️",
         link: "/",
-        icon: "fa-fort-awesome",
+        // icon: "fa-fort-awesome",
       },
       {
-        text: "About",
-        link: "https://zxh.io",
-        icon: "fa-paw",
-      },
-      {
-        text: "Tags",
+        text: "🏷️",
         link: "/tags/",
-        icon: "fa-tag",
       },
       {
-        text: "Links",
+        text: "🔗",
         link: "/links/",
-        icon: "fa-satellite-dish",
       },
-      {
-        text: "Portfolio",
-        link: "https://portfolio.zxh.io/",
-        icon: "oi-rocket",
-      },
+      // TODO cool
+      // {
+      //   text: "🖥️",
+      //   link: "https://portfolio.zxh.io/",
+      // },
     ],
 
     footer: `
-      &copy; <a href="https://github.com/Renovamen" target="_blank">Renovamen</a> 2018-2022
+      &copy; <a href="https://github.com/zhang13pro" target="_blank">Atlas</a> 2016-${new Date().getFullYear()}
       <br>
       Powered by <a href="https://v2.vuepress.vuejs.org" target="_blank">VuePress</a> &
       <a href="https://github.com/Renovamen/vuepress-theme-gungnir" target="_blank">Gungnir</a>
