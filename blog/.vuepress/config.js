@@ -125,11 +125,11 @@ module.exports = {
     },
 
     navbar: [
-      {
-        text: "🛋️",
-        link: "/",
-        // icon: "fa-fort-awesome",
-      },
+      // TODO cool
+      // {
+      //   text: "🖥️",
+      //   link: "https://portfolio.zxh.io/",
+      // },
       {
         text: "🏷️",
         link: "/tags/",
@@ -138,11 +138,6 @@ module.exports = {
         text: "🔗",
         link: "/links/",
       },
-      // TODO cool
-      // {
-      //   text: "🖥️",
-      //   link: "https://portfolio.zxh.io/",
-      // },
       {
         icon: "ri-bilibili-fill",
         link: "https://space.bilibili.com/291279617/dynamic",
