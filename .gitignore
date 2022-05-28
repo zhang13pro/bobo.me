@@ -3,6 +3,7 @@ blog/.vuepress/.temp/
 blog/.vuepress/.cache/
 
 # Dist files
+dist/
 lib/
 
 # Test temp files

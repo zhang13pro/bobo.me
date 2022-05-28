@@ -6,7 +6,7 @@
   "author": "Lex <zhang13pro@gmail.com>",
   "scripts": {
     "dev": "vuepress-cli dev blog --clean-cache",
-    "build": "rimraf blog/.vuepress/dist && vuepress-cli build blog --clean-cache",
+    "build": "rimraf dist blog/.vuepress/.temp && vuepress-cli build blog --clean-cache",
     "serve": "anywhere -h localhost -d blog/.vuepress/dist",
     "info": "vuepress-cli info"
   },
@@ -16,7 +16,7 @@
     "@vuepress/client": "2.0.0-beta.45",
     "anywhere": "^1.6.0",
     "rimraf": "^3.0.2",
-    "vue": "^3.2.33",
+    "vue": "3.2.33",
     "vuepress": "2.0.0-beta.45",
     "vuepress-theme-gungnir": "2.0.0-alpha.23"
   },

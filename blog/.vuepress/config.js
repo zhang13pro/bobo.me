@@ -54,15 +54,15 @@ module.exports = {
       name: "Dreamer",
       avatar: "/img/avatar.jpg",
       description: "sleeping ? money++ : coding && (writing || eating)",
-      // sns: {
-      // github: "Renovamen",
-      // linkedin: "xiaohan-zou",
-      // facebook: "renovamen.zou",
-      // twitter: "renovamen_zxh",
-      // zhihu: "chao-neng-gui-su",
-      // email: "renovamenzxh@gmail.com",
-      // rss: "/rss.xml",
-      // },
+      sns: {
+        // github: "Renovamen",
+        // linkedin: "xiaohan-zou",
+        // facebook: "renovamen.zou",
+        // twitter: "renovamen_zxh",
+        // zhihu: "chao-neng-gui-su",
+        // email: "renovamenzxh@gmail.com",
+        // rss: "/rss.xml",
+      },
     },
 
     // header images on home page
@@ -110,7 +110,7 @@ module.exports = {
     themePlugins: {
       // only enable git plugin in production mode
       git: isProd,
-      katex: true,
+      katex: false,
       giscus: {
         repo: "This-is-an-Apple/blog-giscus-comments",
         repoId: "R_kgDOGl2SjQ",
@@ -124,8 +124,8 @@ module.exports = {
       ga: "G-HCQSX53XFG",
       ba: "75381d210789d3eaf855fa16246860cc",
       rss: {
-        siteURL: "https://blog.zxh.io",
-        copyright: "Renovamen 2018-2022",
+        siteURL: "https://13pro.vercel.app/",
+        copyright: `Atlas 2016-${new Date().getFullYear()}`,
       },
     },
 
