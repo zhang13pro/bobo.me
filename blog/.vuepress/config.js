@@ -4,7 +4,7 @@ const { gungnirTheme } = require("vuepress-theme-gungnir");
 const isProd = process.env.NODE_ENV === "production";
 
 module.exports = {
-  title: "Atlas",
+  title: "与永恒拔河",
   description: "Tomorrow is another day.",
 
   head: [
@@ -46,23 +46,19 @@ module.exports = {
     repo: "zhang13pro/bobo.me",
     docsDir: "blog",
     docsBranch: "main",
+    navbarTitle: "$ cd /",
+    searchText: "",
+    searchIcon: "ri-search-2-line",
+    catalog: false,
+    blogNumPerPage: 7,
 
-    hitokoto: "https://v1.hitokoto.cn?c=i", // enable hitokoto (一言) or not?
+    hitokoto: true, // "https://v1.hitokoto.cn?c=i" 只返回诗句
 
     // personal information
     personalInfo: {
-      name: "Dreamer",
+      name: "Atlas",
       avatar: "/img/avatar.jpg",
       description: "sleeping ? money++ : coding && (writing || eating)",
-      sns: {
-        // github: "Renovamen",
-        // linkedin: "xiaohan-zou",
-        // facebook: "renovamen.zou",
-        // twitter: "renovamen_zxh",
-        // zhihu: "chao-neng-gui-su",
-        // email: "renovamenzxh@gmail.com",
-        // rss: "/rss.xml",
-      },
     },
 
     // header images on home page
@@ -88,10 +84,10 @@ module.exports = {
       },
     ],
 
-    // other pages
+    // router pages
     pages: {
       tags: {
-        subtitle: "人生代代无穷已，江月年年望相似",
+        subtitle: "没有榜样，也走了整整五千年",
         bgImage: {
           path: "/img/pages/tags.jpg",
           mask: "rgba(211, 136, 37, .5)",
@@ -108,25 +104,24 @@ module.exports = {
 
     // TODO update
     themePlugins: {
-      // only enable git plugin in production mode
-      git: isProd,
-      katex: false,
-      giscus: {
-        repo: "This-is-an-Apple/blog-giscus-comments",
-        repoId: "R_kgDOGl2SjQ",
-        category: "Announcements",
-        categoryId: "DIC_kwDOGl2Sjc4CAcxK",
-        darkTheme: "https://blog.zxh.io/styles/giscus-dark.css",
+      search: {
+        hotKeys: ["/"], // 聚焦 Search
+        getExtraFields: (page) => page.frontmatter.tags ?? [], // 支持 Search Tags
       },
-      mdPlus: {
-        all: true,
-      },
-      ga: "G-HCQSX53XFG",
-      ba: "75381d210789d3eaf855fa16246860cc",
-      rss: {
-        siteURL: "https://13pro.vercel.app/",
-        copyright: `Atlas 2016-${new Date().getFullYear()}`,
-      },
+      git: isProd, // only enable git plugin in production mode
+      katex: true, // plugin-katex 公式插件
+      chartjs: true, // plugin-chart JS图表库
+      mermaid: { token: "mermaid" }, // plugin-mermaid 流程图
+      mdPlus: { all: true }, // plugin-md-plus
+      // giscus: {
+      //   repo: "This-is-an-Apple/blog-giscus-comments",
+      //   repoId: "R_kgDOGl2SjQ",
+      //   category: "Announcements",
+      //   categoryId: "DIC_kwDOGl2Sjc4CAcxK",
+      //   darkTheme: "https://blog.zxh.io/styles/giscus-dark.css",
+      // },
+      // ga: "G-HCQSX53XFG",
+      // ba: "75381d210789d3eaf855fa16246860cc",
     },
 
     navbar: [
@@ -148,6 +143,10 @@ module.exports = {
       //   text: "🖥️",
       //   link: "https://portfolio.zxh.io/",
       // },
+      {
+        icon: "ri-bilibili-fill",
+        link: "https://space.bilibili.com/291279617/dynamic",
+      },
     ],
 
     footer: `
