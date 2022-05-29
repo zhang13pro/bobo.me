@@ -108,7 +108,7 @@ module.exports = {
         hotKeys: ["/"], // 聚焦 Search
         getExtraFields: (page) => page.frontmatter.tags ?? [], // 支持 Search Tags
       },
-      git: isProd, // only enable git plugin in production mode
+      // git: isProd, // only enable git plugin in production mode
       katex: true, // plugin-katex 公式插件
       chartjs: true, // plugin-chart JS图表库
       mermaid: { token: "mermaid" }, // plugin-mermaid 流程图
