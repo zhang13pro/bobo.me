@@ -1,30 +1,32 @@
-name: build-and-deploy
+name: Install-and-Build
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
   pull_request:
-    branches: [main]
+    branches:
+      - main
 
 jobs:
-  build-and-deploy:
+  # job.id
+  cache-and-install:
     runs-on: ubuntu-latest
 
     env:
       NODE_VERSION: "16"
 
+    # more information https://github.com/marketplace?type=actions
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: CheckOut
       - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
 
       - name: Install pnpm
         uses: pnpm/action-setup@v2
         with:
           version: 7
 
-      - name: Setup Node.js
+      - name: Install Node.js
         uses: actions/setup-node@v3
         with:
           node-version: ${{ env.NODE_VERSION }}
@@ -35,10 +37,3 @@ jobs:
 
       - name: Build site
         run: pnpm build
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: blog/.vuepress/dist
-          # cname: blog.bb
