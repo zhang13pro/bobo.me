@@ -127,20 +127,24 @@ module.exports = {
     navbar: [
       // TODO cool
       // {
-      //   text: "🖥️",
+      //   icon: "md-computer",
       //   link: "https://portfolio.zxh.io/",
       // },
       {
-        text: "🏷️",
+        icon: "io-pricetags-outline",
         link: "/tags/",
       },
       {
-        text: "🔗",
+        icon: "gi-linked-rings",
         link: "/links/",
       },
       {
         icon: "ri-bilibili-fill",
         link: "https://space.bilibili.com/291279617/dynamic",
+      },
+      {
+        icon: "ri-github-line",
+        link: "https://github.com/zhang13pro/bobo.me",
       },
     ],
 

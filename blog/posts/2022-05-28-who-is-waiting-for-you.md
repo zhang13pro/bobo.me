@@ -7,7 +7,6 @@ date: 2015-11-01
 useHeaderImage: true
 headerImage: /img/_post/2022-05-28-yixi.png
 headerMask: rgb(14, 21, 5, .5)
-permalinkPattern: /post/:year/:month/:day/:slug/
 tags:
   - 演讲
 ---

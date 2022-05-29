@@ -2,6 +2,16 @@
 layout: Links
 title: 离开世界之前
 links:
+  - title: 一切都是过程
+    items:
+      - sitename: 13Pro
+        url: https://13pro.vercel.app/
+        img: /img/logo/apple-touch-icon.svg
+        desc: Blog style powered by Docusaurus2
+      - sitename: 13Press
+        url: https://13press.vercel.app/
+        img: /img/logo/favicon-32x32.svg
+        desc: Docs style powered by Vuepress2
   - title: 造工具永远有价值
     items:
       - sitename: Gungnir

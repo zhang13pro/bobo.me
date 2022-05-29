@@ -4,7 +4,6 @@ title: Create a new Blog Again
 subtitle: 创建、配置与自动部署
 date: 2022-05-29
 headerImage: /img/in-post/2020-10-07/header.jpg
-permalinkPattern: /post/:year/:month/:day/:slug/
 tags:
   - 摸鱼
 ---
@@ -14,9 +13,9 @@ tags:
 - [Blog style powered by Docusaurus2](https://13pro.vercel.app/)
 - [Docs style powered by Vuepress2](https://13press.vercel.app/)
 
-但是当我看到[vuepress-theme-gungnir](https://v2-vuepress-theme-gungnir.vercel.app/)时。我又有挖新坑的冲动了，一直就想尝试[黄玄](http://huangxuan.me/)博客的风格，想着用 Vuepress2 重构下大佬的博客，顺便学习下 Vue3 & TypeScript。看来不止我一个人有这样的想法，不同的是人家已经实现了。~~是的，我承认我又菜又懒~~，虽然不符合 100%的预期，但技术选型和风格都很 Nice。
+但是当我看到 [vuepress-theme-gungnir](https://v2-vuepress-theme-gungnir.vercel.app/) 时。我又有挖新坑的冲动了，一直就想尝试[黄玄](http://huangxuan.me/)博客的风格，想着用 Vuepress2 重构下大佬的博客，顺便学习下 Vue3 & TypeScript。看来不止我一个人有这样的想法，不同的是人家已经实现了。~~是的，我承认我又菜又懒~~，虽然不符合 100% 的预期，但技术选型和风格都很 Nice。
 
-所以有空就去提提[PR](https://github.com/Renovamen/vuepress-theme-gungnir/issues)啊喂！
+所以有空就去提提 [PR](https://github.com/Renovamen/vuepress-theme-gungnir/issues) 啊喂！
 
 ## Github Actions
 
