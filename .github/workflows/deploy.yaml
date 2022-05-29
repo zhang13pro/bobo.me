@@ -39,8 +39,12 @@ jobs:
       - name: Build site
         run: pnpm build
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Vercel Deploy
+        uses: amondnet/vercel-action@v20
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: blog/.vuepress/dist
+          github-token: ${{ secrets.GITHUB_TOKEN }} # Optional
+          vercel-token: ${{ secrets.VERCEL_TOKEN }}
+          vercel-org-id: ${{ secrets.VERCEL_ORG_ID}}
+          vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID}}
+          working-directory: blog/.vuepress/dist
+          vercel-args: "--prod" # Optional
