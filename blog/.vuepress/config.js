@@ -46,7 +46,7 @@ module.exports = {
     repo: "zhang13pro/bobo.me",
     docsDir: "blog",
     docsBranch: "main",
-    navbarTitle: "$ cd /",
+    navbarTitle: "$ cd ~",
     searchText: "",
     searchIcon: "ri-search-2-line",
     catalog: false,
