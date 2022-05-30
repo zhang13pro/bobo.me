@@ -131,7 +131,7 @@ module.exports = {
       //   link: "https://portfolio.zxh.io/",
       // },
       {
-        icon: "io-pricetags-outline",
+        icon: "gi-price-tag",
         link: "/tags/",
       },
       {

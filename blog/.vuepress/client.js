@@ -5,18 +5,12 @@ import { addIcons } from "oh-vue-icons";
  */
 import {
   RiBilibiliFill,
-  IoPricetagsOutline,
   GiLinkedRings,
   MdComputer,
   RiGithubLine,
+  GiPriceTag,
 } from "oh-vue-icons/icons";
 
-addIcons(
-  RiBilibiliFill,
-  IoPricetagsOutline,
-  GiLinkedRings,
-  MdComputer,
-  RiGithubLine
-);
+addIcons(RiBilibiliFill, GiLinkedRings, MdComputer, GiPriceTag, RiGithubLine);
 
 export default defineClientConfig({});
