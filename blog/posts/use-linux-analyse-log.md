@@ -46,3 +46,23 @@ awk '{print substr($4, 2, 11) " " $1}' access.log |\
 	sort | uniq |\
 	awk '{uv[$1]++;next}END{for (ip in uv) print ip, uv[ip]}'
 ```
+
+- awk DSL
+- 拼接第四列日期和第一列 `ip`
+- 排序去重
+- next 跳转下一行
+- END 触发器，后面的语句最后执行
+
+## More
+
+1. 访问量 Top 前三的网页
+
+```bash
+awk '{print $7}' access.log | sort | uniq -c | sort -fr | head -3
+```
+
+2. 分组统计哪些终端访问了网站
+
+```bash
+awk -F\" '{print $6}' access.log | sort | uniq -c | sort -fr
+```
