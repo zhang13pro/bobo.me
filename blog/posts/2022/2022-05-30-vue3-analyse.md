@@ -6,6 +6,7 @@ date: 2022-05-30
 useHeaderImage: true
 headerImage: /img/_post/evanyou.jpeg
 headerMask: rgb(14, 21, 5, .5)
+permalinkPattern: /post/:year/:month/:day/:slug/
 tags:
   - Vue.js
 ---
