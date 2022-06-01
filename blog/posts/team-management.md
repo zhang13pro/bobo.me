@@ -9,10 +9,4 @@ tags:
   - 管理
 ---
 
-[github ip address](https://ipaddress.com/website/github.com)
-[github.global.ssl.fastly.net ip address](https://ipaddress.com/website/github.global.ssl.fastly.net)
-
-140.82.114.3 github.com
-199.232.69.194 github.global.ssl.fastly.net
-
-狗东西，什么垃圾网呀。不能登 Github 我拿什么活
+- [ ] 周末更新
