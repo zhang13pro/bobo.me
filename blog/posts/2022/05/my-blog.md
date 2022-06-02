@@ -3,7 +3,7 @@ layout: Post
 title: Create a new Blog Again
 subtitle: 创建、配置与自动部署
 date: 2022-05-29
-headerImage: /img/in-post/2020-10-07/header.jpg
+headerImage: /img/_post/moyu-header.jpg
 tags:
   - 摸鱼
 ---
