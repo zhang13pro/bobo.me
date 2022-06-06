@@ -30,6 +30,11 @@ pnpm build
 
 &nbsp;
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=LinuxSuRen/remote-jobs-in-china&type=Date)](https://star-history.com/#LinuxSuRen/remote-jobs-in-china&Date)
+
+
 ## License
 
 This blog is [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0) licensed, see the [LICENSE](LICENSE) file for details.
