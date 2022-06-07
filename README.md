@@ -32,7 +32,7 @@ pnpm build
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=LinuxSuRen/remote-jobs-in-china&type=Date)](https://star-history.com/#LinuxSuRen/remote-jobs-in-china&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=zhang13pro/bobo.me&type=Date)](https://star-history.com/#zhang13pro/bobo.me&Date)
 
 
 ## License
