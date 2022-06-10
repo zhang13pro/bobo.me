@@ -113,13 +113,17 @@ module.exports = {
       chartjs: true, // plugin-chart JS图表库
       mermaid: { token: "mermaid" }, // plugin-mermaid 流程图
       mdPlus: { all: true }, // plugin-md-plus
-      // giscus: {
-      //   repo: "This-is-an-Apple/blog-giscus-comments",
-      //   repoId: "R_kgDOGl2SjQ",
-      //   category: "Announcements",
-      //   categoryId: "DIC_kwDOGl2Sjc4CAcxK",
-      //   darkTheme: "https://blog.zxh.io/styles/giscus-dark.css",
-      // },
+      giscus: {
+        repo: "zhang13pro/bobo.discussions",
+        repoId: "R_kgDOHeqBOw",
+        category: "Announcements",
+        categoryId: "DIC_kwDOHeqBO84CPkvi",
+        mapping: "pathname", // title
+        lazyLoad: true,
+        crossorigin: "anonymous",
+        theme: "light_high_contrast", // light
+        darkTheme: "dark_tritanopia", // dark dark_dimmed
+      },
       // ga: "G-HCQSX53XFG",
       // ba: "75381d210789d3eaf855fa16246860cc",
     },
