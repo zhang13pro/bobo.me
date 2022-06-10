@@ -3,7 +3,9 @@ layout: Post
 title: Create a new Blog Again
 subtitle: 创建、配置与自动部署
 date: 2022-05-29
+useHeaderImage: true
 headerImage: /img/_post/moyu-header.jpg
+headerMask: rgb(14, 21, 5, .5)
 tags:
   - 摸鱼
 ---
