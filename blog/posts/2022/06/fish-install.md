@@ -1,6 +1,7 @@
 ---
 layout: Post
 title: fish 安装与配置
+subtitle: a smart and user-friendly command line shell for Linux, macOS
 date: 2022-06-02
 useHeaderImage: false
 headerImage: /img/_post/moyu-header.jpg
