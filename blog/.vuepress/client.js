@@ -1,6 +1,6 @@
 import { defineClientConfig } from "@vuepress/client";
 import { addIcons } from "oh-vue-icons";
-import { Bilibili } from "./components";
+import { Bilibili, Music } from "./components";
 
 /**
  * more information https://oh-vue-icons.js.org/
@@ -18,5 +18,6 @@ addIcons(RiBilibiliFill, GiLinkedRings, MdComputer, GiPriceTag, RiGithubLine);
 export default defineClientConfig({
   enhance({ app }) {
     app.component("Bilibili", Bilibili);
+    app.component("Music", Music);
   },
 });

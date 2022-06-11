@@ -1,7 +1,7 @@
 ---
 layout: Post
 title: 五月就过去了
-subtitle: 卡片的意义不仅仅是记录笔记本身，它也衡量学习效率的高低。
+subtitle: 卡片的意义不仅仅是记录笔记本身，它也衡量学习效率的高低
 date: 2022-05-29
 useHeaderImage: true
 headerImage: /img/_post/2022/05/header.jpg
@@ -75,4 +75,4 @@ tags:
 
 &nbsp;
 
-[^1]: [谁在银光闪闪的地方等你](/posts/2022/who-is-waiting-for-you.md)
+[^1]: [谁在银光闪闪的地方等你](/posts/2022/05/who-is-waiting-for-you.md)
