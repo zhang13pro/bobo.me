@@ -4,7 +4,7 @@ title: 谁在银闪闪的地方等你
 subtitle: 衰老是与永恒拔河，你早就知道，总有一天，会输给时间以满头白发。
 date: 2022-05-28
 useHeaderImage: true
-headerImage: /img/_post/2022-05-28-yixi.png
+headerImage: /img/_post/2022/05/yixi-header.png
 headerMask: rgb(14, 21, 5, .5)
 tags:
   - 演讲

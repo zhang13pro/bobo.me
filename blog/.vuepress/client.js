@@ -1,6 +1,8 @@
 import { defineClientConfig } from "@vuepress/client";
 import { addIcons } from "oh-vue-icons";
-/** 全局引入图标
+import { Bilibili } from "./components";
+
+/**
  * more information https://oh-vue-icons.js.org/
  */
 import {
@@ -13,4 +15,8 @@ import {
 
 addIcons(RiBilibiliFill, GiLinkedRings, MdComputer, GiPriceTag, RiGithubLine);
 
-export default defineClientConfig({});
+export default defineClientConfig({
+  enhance({ app }) {
+    app.component("Bilibili", Bilibili);
+  },
+});
