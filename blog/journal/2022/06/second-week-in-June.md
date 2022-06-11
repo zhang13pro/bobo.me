@@ -53,12 +53,18 @@ so,what's 好友万万睡
 
 ## 感悟 困兽
 
-是成为一个全才 or 斜杆青年？我被学长的百度数据库的故事困住了。
+是成为一个全才 or 斜杆青年？我被学长的百度数据库的故事困住了。也许社会奖赏那些流水线式分工明确的专业人才，but maybe is 起步时涉猎广泛，并在进步中拥抱不同经验和观点的人。
 
-## 感悟 生命的意义
+## 生命的意义
 
 拿起铲子，把梦想挖出来吧。
 然后去码头，整点薯条！
 <bilibili id="BV1Rv4y1w7hA" />
 
 “Mom, why do we make ‘what I want to be when I grow up’ signs on the first day of school? We should make ‘==Top 5 things I want to learn about this year==’ signs.”
+
+## 自信
+
+生活要么是一场大胆的冒险，要么什么都不是。要么大胆尝试，要么一无所获。
+
+自信是一个游戏——一个富有技巧性的心理游戏。

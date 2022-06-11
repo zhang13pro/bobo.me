@@ -1,7 +1,7 @@
 ---
 layout: Post
 title: 读水浒——人性的十三种刻度
-subtitle:
+subtitle: 从名著中学人情世故
 date: 2022-06-11
 useHeaderImage: true
 headerImage: /img/_post/read-header.png
@@ -10,28 +10,26 @@ tags:
   - 抽书
 ---
 
-## 电影
+## 结局 鲁智深 武松 林冲
 
-<music id="1497071430" />
+换句话说，林冲的起点，就是武松这些底层草根梦想的终点。
 
-2022 年中大陆的电影市场依然没有掀起什么波澜，年初的春节档竟然延迟上映到 6 月底。没有办法的吃老本吧。
+《水浒传》给人物的结局，往往都有强烈的象征意义。鲁智深的端然圆寂，象征着他的解脱；林冲的风瘫，象征着他的隐忍和塌陷；而武松的自断其臂，则象征着他的放弃。
 
-上周末回顾了诺兰导演的盗梦空间、星际穿越、禁闭岛。
+林冲很快就死了，但武松却活到了八十岁。他的后半段是平静的，平静的代价就是舍弃。他切断了自己杀人活人的臂膀，再也成不了别人的工具，也就切断了所有的执念。
 
-电影星际穿越是一部成功的科幻片，更感动我的其实是它所关于爱的承诺。
+江湖里传言：“宁做真小人，勿做伪君子。”可是文明进化的过程，也一定是把大批真小人转变成伪君子的过程。虚伪也是文明社会的一道防护栏。我不能铲除心中的恶念，但依旧以恶念为羞，不敢让人知道，这就好过不知善恶。
 
-父亲开车儿子和女儿
-![星际穿越](/img/_post/2022/06/in-car.jpg)
+## 束缚 武大郎 杨雄
 
-父亲与女儿的约定
-![星际穿越](/img/_post/2022/06/watch.jpg)
+仔细读《水浒传》的话，会发现当时良家妇女的生活实在是太寂寞了。她们被困在一个非常狭小的空间，几乎和外界完全隔绝。所以出轨成了无聊生活里唯一的光，这光就比肩神灵。潘金莲的偷情，与其说是性欲的驱使，更像是她要在生命里抓住点什么，来填补那片巨大的空白。
 
-杨紫琼主演的电影，《妈的多重宇宙》设定很有意思。可惜没在国内上映。电影是造梦的艺术，好的原创电影值得被看见。
+王婆大概也是这么想的，她把潘金莲和西门庆同时请到家里来，按照她的分析，如果西门庆进来的时候，潘金莲不起身就跑，“这光便有四分了”。哪怕是大白天，哪怕旁边还有第三者在场，女人看见陌生男人不跑，就有 40%上床的可能。在当时的社会空间里，就存在这么强大的性张力。男人和女人往那儿一站，周围空气里就噼里啪啦闪耀着性的火花。
 
-## Vue 周边
+男权就像一个魔咒，固然把女人困在了里面，但有的时候把男人也给束缚住了。在男权社会里，老婆出轨对男人来说确实是很大的羞耻，会激发男人的怒气。但这种愤怒里，只有一小部分是出自生物本能的嫉妒心，更大部分则来自社会规则的压力。所以杨雄才会被逼得杀死自己的妻子。
 
-Evan You 又怼人了，I like this man,hhh. 服务提供者有权利拒绝服务。
+## 管理 杨志
 
-> Hey, nobody asked you to use it and you didn't pay for it either. As a user, the very least you can do is to communicate in a respectful and constructive manner, yet you failed to do that. The complexity of types in the source code is there to provide better intellisense for day-to-day usage, which is an obvious trade-off. You are projecting your frustration with your own incompetence in TypeScript on to the author of the library that is trying to help you for free. You are the embodiment of open source consumer entitlement and you are welcome to fuck off and never use this library again.
->
-> P.S. you have been banned from interacting with any repositories under the vuejs organization, forever. Please don't bother replying. Actually, I believe it'd be much better off if you just stop using open source and write everything yourself from scratch!
+当初王伦问他：“你是谁啊？”他并没有简简单单地说，“杨志”，而是说得很复杂，“洒家是三代将门之后，五侯杨令公之孙，姓杨，名志。”跟人一见面，先确定自己作为孙子的身份。这种家世对杨志确实是一种激励。杨志曾经描述过自己的理想：“洒家清白姓字，不肯将父母遗体来点污了，指望把一身本事，边庭上一枪一刀，博个封妻荫子，也与祖宗争口气！”在《水浒传》里，“封妻荫子”是个老掉牙的套话了。
+
+押送生辰纲的路上，杨志与众人起了冲突。“提辖，我们挑着百十斤担子，须不比你空手走的。你端的不把人当人！”管理中重要的一条就是==把人当人，而不是当工具==。
