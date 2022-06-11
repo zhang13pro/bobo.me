@@ -4,7 +4,7 @@ title: 读水浒——人性的十三种刻度
 subtitle:
 date: 2022-06-11
 useHeaderImage: true
-headerImage: /img/_post/2022/06/header.png
+headerImage: /img/_post/read-header.png
 headerMask: rgb(14, 21, 5, .5)
 tags:
   - 抽书

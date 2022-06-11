@@ -27,8 +27,8 @@ React using JSX makes its render functions inherently difficult to optimize comp
 
 React hooks leaves most of the component-tree level optimization (i.e. prevent unnecessary re-renders of child components) to the developers, requiring explicit^明确的^ usage of `useMemo` in most cases. Also, whenever a React component receives the children prop, it almost always has to re-render because the children prop will always be a fresh vdom tree on each render. This means a React app using hooks will be over-re-rendering by default. What's worse, optimizations like useMemo cannot easily be auto-applied because
 
-(1) it requires the correct deps Array and
-(2) blindly adding it everywhere may block updates that should happen, similar to PureComponent. Unfortunately, most developers will be lazy and will not aggressively optimize their apps everywhere, so most React apps using hooks will be doing a lot of unnecessary CPU work.
+1. it requires the correct deps Array and
+2. blindly adding it everywhere may block updates that should happen, similar to PureComponent. Unfortunately, most developers will be lazy and will not aggressively optimize their apps everywhere, so most React apps using hooks will be doing a lot of unnecessary CPU work.
 
 In comparison, Vue addresses the above problem with:
 
