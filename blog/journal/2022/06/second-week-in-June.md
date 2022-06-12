@@ -42,7 +42,8 @@ Evan You 又怼人了，I like this man,hhh. 服务提供者有权利拒绝服�
 
 ## 翻译 奇奇怪怪
 
-<images :urls="['/img/_journal/2022/06/benefits.png']" alt="好友万万睡" />
+SO,WHAT'S 好友万万睡?
+<images :urls="['/img/_journal/2022/06/benefits.png']" alt="有道翻译" />
 
 ## 代码规范
 

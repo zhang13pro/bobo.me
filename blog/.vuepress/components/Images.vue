@@ -1,15 +1,14 @@
 <template>
-  <figure v-for="url in urls">
+  <div v-for="url in urls">
     <img :src="url" :alt="alt" />
-    <figcaption>{{ alt }}</figcaption>
-  </figure>
+  </div>
 </template>
 
 <script setup lang="ts">
 defineProps({
   alt: {
     type: String,
-    required: true,
+    required: false,
   },
   urls: {
     type: Object,
@@ -21,8 +20,5 @@ defineProps({
 <style scoped>
 img {
   display: inline-block;
-}
-figcaption {
-  text-align: center;
 }
 </style>
