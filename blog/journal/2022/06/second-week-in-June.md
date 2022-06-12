@@ -43,11 +43,15 @@ Evan You 又怼人了，I like this man,hhh. 服务提供者有权利拒绝服�
 ## 翻译 奇奇怪怪
 
 so,what's 好友万万睡
-![词典翻译](/img/_journal/2022/06/benefits.png)
+![](/img/_journal/2022/06/benefits.png)
+
+width="250px"
+
+<img src="/img/_journal/2022/06/benefits.png"  alt="词典翻译" />
 
 ## 代码规范
 
-![词典翻译](/img/_journal/2022/06/error.png)
+![error log](/img/_journal/2022/06/error.png)
 
 凡是数据库查询都可能查不到，结果不要直接拿来用，🙅🏻 不允许这种不加判断的代码。
 

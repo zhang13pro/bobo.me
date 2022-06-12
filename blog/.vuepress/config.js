@@ -50,7 +50,7 @@ module.exports = {
     searchText: "",
     searchIcon: "ri-search-2-line",
     catalog: false,
-    blogNumPerPage: 7,
+    blogNumPerPage: 100,
 
     hitokoto: true, // "https://v1.hitokoto.cn?c=i" 只返回诗句
 
