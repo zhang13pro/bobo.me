@@ -21,6 +21,6 @@ const props = defineProps({
 });
 
 const url = ref(
-  `//music.163.com/outchain/player?type=2&id=${props.id}&auto=1&height=66`
+  `//music.163.com/outchain/player?type=2&id=${props.id}&auto=0&height=66`
 );
 </script>

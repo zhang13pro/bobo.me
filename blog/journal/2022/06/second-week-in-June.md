@@ -37,17 +37,12 @@ Evan You 又怼人了，I like this man,hhh. 服务提供者有权利拒绝服�
 
 ## 洛阳旧事
 
-唐老师舞得真好看。
+看完唐老师这舞，才知白居易没有骗人。当真是“缓歌慢舞凝丝竹，尽日君王看不足”。
 <bilibili id="BV1zL4y1n7Jv" />
 
 ## 翻译 奇奇怪怪
 
-so,what's 好友万万睡
-![](/img/_journal/2022/06/benefits.png)
-
-width="250px"
-
-<img src="/img/_journal/2022/06/benefits.png"  alt="词典翻译" />
+<images :urls="['/img/_journal/2022/06/benefits.png']" alt="好友万万睡" />
 
 ## 代码规范
 
