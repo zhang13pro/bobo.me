@@ -122,7 +122,7 @@ module.exports = {
         lazyLoad: true,
         crossorigin: "anonymous",
         theme: "light_high_contrast", // light
-        darkTheme: "dark_tritanopia", // dark dark_dimmed
+        darkTheme: "/styles/giscus-dark.css", //dark_tritanopia dark dark_dimmed
       },
       // ga: "G-HCQSX53XFG",
       // ba: "75381d210789d3eaf855fa16246860cc",
