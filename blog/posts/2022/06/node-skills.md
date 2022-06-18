@@ -1,10 +1,10 @@
 ---
 layout: Post
 title: Node.js 常见问题漫谈
-subtitle: Node代码规范、工具介绍
+subtitle: 代码规范、工具介绍
 date: 2022-06-12
 useHeaderImage: false
-headerImage: /img/_post/presenter-header.jpeg
+headerImage: /img/_post/presenter-header.jpg
 headerMask: rgb(14, 21, 5, .5)
 tags:
   - 讲演

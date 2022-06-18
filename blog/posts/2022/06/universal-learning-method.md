@@ -4,7 +4,7 @@ title: 万能学习法
 subtitle: 不断的重复，不断的总结，不知不觉中就进步了
 date: 2022-06-02
 useHeaderImage: true
-headerImage: /img/_post/method-header.jpg
+headerImage: /img/_post/method-header.jpeg
 headerMask: rgb(14, 21, 5, .5)
 tags:
   - 方法论
