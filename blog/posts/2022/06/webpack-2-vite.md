@@ -25,7 +25,7 @@ The above dynamic import cannot be analyzed by vite.
 See https://github.com/rollup/plugins/tree/master/packages/dynamic-import-vars#limitations for supported dynamic import formats. If this is intended to be left as-is, you can use the /* @vite-ignore */ comment inside the import() call to suppress this warning.
 
   Plugin: vite:import-analysis
-  File: /Users/h/w/supplier-op/src/router/filter.js
+  File: /Users/h/w/supplier-op/src/router/filter.jsg
 下午5:02:39 [vite]
 下午5:02:48 [vite] page reload src/plugins/index.js
 ```
